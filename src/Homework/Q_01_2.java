@@ -2,7 +2,7 @@ package Homework;
 
 import java.util.*;
 
-public class Q_01_1 {
+public class Q_01_2 {
     public static void main(String[] args) {
         // (2) x와 y 중에서 큰 값을 max에 저장하고 작은 값을 min에 저장한다.
         Scanner sc = new Scanner(System.in);
