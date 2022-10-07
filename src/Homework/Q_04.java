@@ -10,11 +10,10 @@ public class Q_04 {
     int age = 19;
 
     if( age > 20 ) {
-        System.out.println("1번 그룹\n");
+        System.out.println("1번 그룹");
     }
     else {
-        System.out.println("2번 그룹\n");
-        System.out.println("입니다.\n");
+        System.out.println("2번 그룹");
         }
     }//end of main
 }//end of class
