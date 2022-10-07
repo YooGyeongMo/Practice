@@ -2,7 +2,7 @@ package Homework;
 
 import java.util.*;
 
-public class Q_01 {
+public class Q_01_1 {
     public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("정수를 입력하세요: ");
