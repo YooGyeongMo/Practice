@@ -10,7 +10,7 @@ public class Q_04_2 {
             System.out.println("1번 그룹");
         }
         else {
-            System.out.println("2번 그룹");
+            System.out.println("2번 그룹입니다.");
         }
     }//end of main
 }// end of class
