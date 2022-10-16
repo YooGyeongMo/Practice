@@ -2,7 +2,7 @@ package Lecture;
 
 import java.util.Scanner;
 
-public class Lec_06 {
+public class Lec_06_minmax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
