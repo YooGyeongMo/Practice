@@ -16,12 +16,13 @@ public class Q_21 {
         System.out.print(s + "에 대한 이진수는 ");
         for(int i =0; i<s.length(); i++)
         {
-            if(s.charAt(i) >= 48 && s.charAt(i) <= 57)
+            if(s.charAt(i) >= 48 && s.charAt(i) <= 57) // 아스키코드 48부터 57까지 1~9
                 System.out.print(" " + hx_bin[s.charAt(i) -48]);
 
-            else if(s.charAt(i)>= 97 && s.charAt(i) <= 102)
-                System.out.print(" " + hx_bin[s.charAt(i)-87]);
-            else if(s.charAt(i)>= 65 && s.charAt(i) <= 70)
+            else if(s.charAt(i)>= 97 && s.charAt(i) <= 102) // ascii 코드 97 ~ 102 a~f
+                System.out.print(" " + hx_bin[s.charAt(i)-87]); // 10진수 10부터 15까지  16진수 A
+
+            else if(s.charAt(i)>= 65 && s.charAt(i) <= 70) // A~ F
                 System.out.print(" " + hx_bin[s.charAt(i)-55]);
         }
         System.out.println("입니다.");
