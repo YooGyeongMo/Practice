@@ -5,6 +5,6 @@ public class TV_test {
 
 
         TV my_tv = new TV("LG", 2017, 32);
-        my_tv.print();
+        my_tv.show();
     }
 }

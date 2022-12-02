@@ -10,7 +10,7 @@ public class TV {
         year = i;
         inch = j;
     }
-    void print(){
+    void show(){
         System.out.print(model + "에서 만든 " + year + "년 형 " + inch + " 인치 TV");
     }
 }
