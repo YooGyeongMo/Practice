@@ -10,6 +10,12 @@ public class car {
     int speed;
     int gear;
 
+    car(String c, int s, int g){
+        color = c;
+        speed = s;
+        gear = g;
+    }
+
     void print(){
         System.out.println("컬러 : " + color + "속도 : " + speed + "기어 : " + gear);
     }

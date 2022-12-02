@@ -2,7 +2,7 @@ package Car_Prac;
 
 public class car_test {
     public static void main(String[] args) {
-        car my_car = new car();
+        car my_car = new car("빨강", 50 ,5);
             System.out.println(my_car.gear);
 
             my_car.speedUp();
