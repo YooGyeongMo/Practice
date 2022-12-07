@@ -7,7 +7,6 @@ public class car_test {
 
             my_car.speedUp();
             System.out.println(my_car.speed);
-
             my_car.speedDown();
 
             //my_car = 객체 주소값 나옴.

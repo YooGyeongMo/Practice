@@ -31,6 +31,7 @@ public class car {
         }
     }
     void setColor(String str){
+
         color = str;
     }
 }
